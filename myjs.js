@@ -1,8 +1,8 @@
 function myfunction()
         {
         	var x, text;
-        	x=document.getElementById('number').value;
-        	if(isNaN(x)|| x<1 || x>5)
+        	x=document.getElementById("number").value;
+        	if(isNaN(x) || x<1 || x>5)
 
         	{
         		text="sorry man it's over";
@@ -10,4 +10,7 @@ function myfunction()
             else
             {
             	test="Thanks for your rating";
+            }
+            document.getElementsByid("demo").innerHTML=text;
+            window.alert(text);
             }
