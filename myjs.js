@@ -7,4 +7,7 @@ function myfunction()
         	{
         		text="sorry man it's over";
         	}
-        	
+            else
+            {
+            	test="Thanks for your rating";
+            }
